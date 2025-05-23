@@ -1,0 +1,12 @@
+# Great Expectations uncommitted
+great_expectations/uncommitted/
+
+# Python virtual env
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# General
+__pycache__/
+*.pyc
