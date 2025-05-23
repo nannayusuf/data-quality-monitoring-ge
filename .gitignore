@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Great Expectations uncommitted
 great_expectations/uncommitted/
 
@@ -11,3 +12,24 @@ venv/
 __pycache__/
 *.pyc
 great_expectations_old/
+=======
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore Great Expectations uncommitted folder
+great_expectations/uncommitted/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+.vscode/
