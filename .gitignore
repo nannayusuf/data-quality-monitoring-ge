@@ -10,3 +10,4 @@ venv/
 # General
 __pycache__/
 *.pyc
+great_expectations_old/
