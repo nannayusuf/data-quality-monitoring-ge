@@ -25,3 +25,12 @@ batch_request = RuntimeBatchRequest(
     runtime_parameters={"batch_data": df},
     batch_identifiers={"default_identifier_name": "test"}
 )
+
+validator = context.get_validator(
+    batch_request=batch_request,
+    expectation_suite_name="olist_suite"
+)
+
+validator.expect_column_values_to_not_be_null("product_id")
+
+print("Expectation suite saved successfully!")
